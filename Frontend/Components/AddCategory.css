@@ -1,0 +1,53 @@
+
+.add-category-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.add-category-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-category-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.add-category-container input,
+.add-category-container select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-category-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-category-container button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    text-align: center;
+    margin-top: 20px;
+    color: green;
+}
+
+.error-message {
+    color: red;
+}
